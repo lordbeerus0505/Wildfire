@@ -18,4 +18,12 @@ While transmitting video feed, the GPS coordinates of the camera making the reco
 
 ## How to start off with the project
 ## Datasets being used
+
 ## Technologies used
+Convolutional Neural Network - YOLO algorithm
+Computer Vision - OpenCV
+Cloud - Microsoft Azure
+IoT - WiFi and GSM module
+Web Framework (UI) - //mention one Django maybe
+
+
