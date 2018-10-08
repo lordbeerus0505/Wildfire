@@ -12,6 +12,7 @@ The approach of fire detection in the forest involves the use of a supervised tr
 * The model, when it detects the presence of fire in the feed generates a signal.
 * The application sends an automated response to the closest station providing the coordinates of the fire.
 * The fire is then subdued.
+  
 While transmitting video feed, the GPS coordinates of the camera making the recording are also transmitted which allows the system to know the source location of the fire thereby being able to curtail it early on.
 ## How to start off with the project
 ## Datasets being used
