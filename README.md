@@ -7,10 +7,10 @@ The application being developed is for the detection of wildfires using live vid
 ## Working specification
 The approach of fire detection in the forest involves the use of a supervised training model over a convolutional neural network using the YOLO algorithm. This allows for real time object detection with minimal computation as YOLO runs a sliding window through the image only once. To train the model, datasets having images or fire are used which help detect the shape and colour of fire amongst other features. Since YOLO looks at the entire image at one go and takes into consideration the global context, addition of greenary to the fire will help yolo detect a wildfire more effectively. For this sake the network will be fed with sample videos of forest fires as well.
   
-While transmitting video feed, the GPS coordinates of the camera making the recording are also transmitted which allows the system to know the source location of the fire thereby being able to curtail it early on.
+While transmitting video feed, the GPS coordinates of the camera (hard-coded) making the recording are also transmitted which allows the system to know the source location of the fire thereby being able to curtail it early on.
 #### The steps followed would include:
 * Train the model by providing it with feed on forest fires that are well annotated.
-* Pass actual video feed to the model along with its GPS coordinates.
+* Pass live video feed to the model along with its GPS coordinates.
 * The model, when it detects the presence of fire in the feed generates a signal.
 * The application sends an automated response to the closest station providing the coordinates of the fire.
 * The fire is then subdued.
@@ -18,12 +18,14 @@ While transmitting video feed, the GPS coordinates of the camera making the reco
 
 ## How to start off with the project
 ## Datasets being used
+Images of smoke and fire.  
 
 ## Technologies used
 Convolutional Neural Network - YOLO algorithm  
 Computer Vision - OpenCV  
 Cloud - Microsoft Azure  
 IoT - WiFi and GSM module  
-Web Framework (UI) - //mention one Django maybe  
+Web Framework (UI) - Django  
+
 
 
