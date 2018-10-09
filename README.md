@@ -16,7 +16,13 @@ While transmitting video feed, the GPS coordinates of the camera (hard-coded) ma
 * The fire is then subdued.
   
 
-## How to start off with the project
+## Prerequisites
+-Keras
+-Tensorflow
+-python 3.x
+-numpy
+-cv2
+
 ## Datasets being used
 Images of smoke and fire.  
 
