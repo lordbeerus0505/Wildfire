@@ -1,4 +1,4 @@
-# Idea for codefundo++ - Wildfire(change the name of app here)
+# Idea for codefundo++ - Fretect (Detect fire)
 A wildfire detection and prediction application with facilities to contact for assistance
 
 ## Product description
@@ -17,11 +17,11 @@ While transmitting video feed, the GPS coordinates of the camera (hard-coded) ma
   
 
 ## Prerequisites
--Keras
--Tensorflow
--python 3.x
--numpy
--cv2
+-Keras  
+-Tensorflow  
+-Python 3.x  
+-Numpy  
+-OpenCV - cv2  
 
 ## Datasets being used
 Images of smoke and fire.  
