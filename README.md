@@ -22,6 +22,7 @@ While transmitting video feed, the GPS coordinates of the camera (hard-coded) ma
 -Python 3.x  
 -Numpy  
 -OpenCV - cv2  
+-Django  
 
 ## Datasets being used
 Images of smoke and fire retrieved from Kaggle and web scraping off bing's image search  
